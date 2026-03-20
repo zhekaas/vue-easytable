@@ -457,6 +457,9 @@ export default {
 
         // cell click
         cellClick(e, fn) {
+
+            console.log(e, fn);
+
             fn && fn(e);
 
             const { groupColumnItem } = this;
